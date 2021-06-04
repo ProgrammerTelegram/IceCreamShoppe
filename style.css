@@ -1,0 +1,49 @@
+main {
+    color: maroon;
+    opacity: 0.8;
+    background-image: linear-gradient(deeppink, lightskyblue);
+    float: left;
+
+}
+
+
+
+#header-image{
+    background-image: url('ice-cream-banner.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+h1, h2 {
+
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    background: linear-gradient(to right, #8f3e60 10%, #480234 80%, #ffff 10%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+table {
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+td, th {
+    border: 1px solid black;
+    padding: 5px 10px;
+}
